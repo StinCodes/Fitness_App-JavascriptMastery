@@ -35,7 +35,8 @@ const HeroBanner = () => {
       >
         Exercise
       </Typography>
-      {/* <img src={HeroBannerImage} alt="banner" className="hero-banner-img"/> */}
+      {/* hero banner image not loading */}
+      <img src={HeroBannerImage} alt="banner" className="hero-banner-img"/>
     </Box>
   );
 };
